@@ -1,128 +1,99 @@
-# Azure Banking Infrastructure Lab
+# Azure Policy & Governance Lab
 
-Hands-on Azure infrastructure, security and operations lab designed to simulate a production-style banking application environment using Microsoft Azure.
+Hands-on Azure Policy, Governance and resource management lab implemented using Microsoft Azure.
 
 ## 🎯 Objectives
 
-- Design and deploy an enterprise-style Azure infrastructure
-- Configure Azure Resource Groups and Virtual Networks
-- Implement subnet segmentation and Network Security Groups
-- Deploy and manage Windows Virtual Machines
-- Implement Azure RBAC and Managed Identity
-- Secure application secrets using Azure Key Vault
+- Design and implement Azure Management Group hierarchy
+- Organize Azure subscriptions using Management Groups
+- Implement Azure Policy for governance and compliance
+- Configure policy assignments at subscription and resource scopes
+- Enforce resource tagging standards
+- Implement resource naming and governance standards
+- Configure Azure RBAC and least-privilege access
+- Implement Azure Resource Locks
 - Configure Azure Monitor and Log Analytics
-- Implement Azure Backup and Recovery Services Vault
-- Apply Azure Policy, Resource Locks and resource tagging
-- Validate Azure infrastructure using monitoring and operational checks
-- Apply Azure security and cost optimization best practices
+- Monitor Azure Activity Logs and policy actions
+- Validate policy compliance and governance controls
+- Implement cost governance and resource management best practices
 
 ## 🏗️ Lab Architecture
 
-![Azure Banking Infrastructure Architecture](Architecture/Azure-Banking-Infrastructure-Architecture.png)
+![Azure Policy & Governance Lab Architecture](./Architecture/Azure-Policy-Governance-Architecture.png)
 
 ## 🛠️ Technologies
 
 - Microsoft Azure
 - Azure Resource Manager
-- Resource Groups
-- Azure Virtual Network
-- Subnets
-- Network Security Groups
-- Public IP
-- Windows Virtual Machines
-- Azure Load Balancer
-- Azure Application Gateway
-- Azure Firewall
-- Microsoft Entra ID
-- Azure RBAC
-- Managed Identity
-- Azure Key Vault
-- Azure Monitor
-- Log Analytics
-- Azure Backup
-- Recovery Services Vault
+- Azure Management Groups
+- Azure Subscriptions
 - Azure Policy
-- Resource Locks
-- Azure Tags
+- Policy Definitions
+- Policy Assignments
+- Policy Compliance
+- Azure Resource Groups
+- Resource Tags
+- Azure RBAC
+- Azure Resource Locks
+- Azure Monitor
+- Azure Activity Log
+- Log Analytics
 - Azure Cost Management
 
 ## 🔐 Key Implementations
 
 | Area | Hands-on Implementation |
 |---|---|
-| Infrastructure | Resource Groups, Virtual Machines & Azure Resource Manager |
-| Networking | VNet, Subnets, NSGs, Load Balancer & Application Gateway |
-| Network Security | Azure Firewall, NSGs & Network Segmentation |
-| Identity & Access | Microsoft Entra ID, Azure RBAC & Managed Identity |
-| Secrets Management | Azure Key Vault |
-| Monitoring | Azure Monitor, Metrics & Log Analytics |
-| Backup & Recovery | Azure Backup & Recovery Services Vault |
-| Governance | Azure Policy, Resource Locks & Resource Tags |
-| Cost Optimization | Azure Cost Management & Resource Lifecycle Management |
+| Management Hierarchy | Management Groups and Subscription Organization |
+| Governance | Azure Policy Definitions and Assignments |
+| Compliance | Policy Compliance Evaluation and Validation |
+| Resource Standards | Resource Naming and Mandatory Tagging |
+| Access Control | Azure RBAC and Least Privilege |
+| Resource Protection | Azure Resource Locks |
+| Monitoring | Azure Activity Logs and Azure Monitor |
+| Centralized Logging | Log Analytics Workspace |
+| Cost Governance | Azure Cost Analysis and Resource Governance |
+| Validation | Policy Enforcement and Governance Testing |
 
 ## 📸 Hands-on Evidence
 
 The `Screenshots` folder contains implementation evidence covering:
 
-- Resource Groups
-- Virtual Network & Subnets
-- Network Security Groups
-- Virtual Machines
-- Public IP
-- Load Balancer
-- Application Gateway
-- Azure Firewall
-- Microsoft Entra ID
+- Management Group hierarchy
+- Subscription organization
+- Azure Policy assignments
+- Policy compliance
+- Policy enforcement
+- Resource tagging
+- Resource naming standards
 - Azure RBAC
-- Managed Identity
-- Azure Key Vault
-- Azure Monitor
-- Log Analytics
-- Azure Backup
-- Recovery Services Vault
-- Azure Policy
 - Resource Locks
-- Resource Tags
-- Cost Management
+- Resource Groups
+- Azure Activity Logs
+- Azure Monitor
+- Log Analytics Workspace
+- Cost Analysis
+- Governance validation
 
 ## 📚 Documentation
 
 Detailed implementation notes are available in the `Implementation` folder.
 
-- [Project Overview](Project-Overview.md)
-- [Azure Infrastructure](Implementation/01-Azure-Infrastructure.md)
-- [Networking](Implementation/02-Networking.md)
-- [Network Security](Implementation/03-Network-Security.md)
-- [Identity & Access Management](Implementation/04-Identity-and-Access.md)
-- [Key Vault & Secrets Management](Implementation/05-Key-Vault.md)
-- [Monitoring & Logging](Implementation/06-Monitoring.md)
-- [Backup & Recovery](Implementation/07-Backup-and-Recovery.md)
-- [Governance](Implementation/08-Governance.md)
-- [Cost Optimization](Implementation/09-Cost-Optimization.md)
+- [Management Group Hierarchy](Implementation/Management-Group-Hierarchy.md)
+- [Azure Policy](Implementation/Azure-Policy.md)
+- [Policy Compliance](Implementation/Policy-Compliance.md)
+- [Resource Governance](Implementation/Resource-Governance.md)
+- [RBAC & Access Control](Implementation/RBAC.md)
+- [Resource Locks](Implementation/Resource-Locks.md)
+- [Monitoring & Activity Logs](Implementation/Monitoring.md)
+- [Cost Governance](Implementation/Cost-Governance.md)
 
 ## 🎓 Skills Demonstrated
 
-**Azure Administration • Azure Networking • Cloud Security • Microsoft Entra ID • Azure IAM • RBAC • Managed Identity • Azure Key Vault • Azure Firewall • Azure Monitor • Log Analytics • Backup & Disaster Recovery • Azure Governance • Cost Optimization**
-
-## 💼 Interview Preparation
-
-The project includes interview preparation covering:
-
-- Azure infrastructure design
-- Resource Groups and ARM
-- VNet and subnet architecture
-- NSG and Azure Firewall
-- Load Balancer vs Application Gateway
-- Azure RBAC and Managed Identity
-- Key Vault security
-- Azure Monitor and Log Analytics
-- Backup and disaster recovery
-- Azure Policy and governance
-- Production troubleshooting scenarios
-- Real-world Azure administration challenges
+**Azure Policy • Azure Governance • Management Groups • Policy Compliance • Resource Tagging • Azure RBAC • Resource Locks • Azure Monitor • Log Analytics • Activity Logs • Cost Governance • Cloud Security**
 
 ## 📌 Project Status
 
 **Completed**
 
-Hands-on implementation, validation, documentation, architecture design and interview preparation completed using Microsoft Azure.
+Hands-on implementation, validation, governance testing and documentation completed using Microsoft Azure.
